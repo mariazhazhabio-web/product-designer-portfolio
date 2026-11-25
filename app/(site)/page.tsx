@@ -20,7 +20,10 @@ export default function Home() {
         <div aria-hidden className="pointer-events-none absolute inset-0 bg-[radial-gradient(60rem_30rem_at_85%_-10%,var(--primary-soft),transparent),radial-gradient(40rem_20rem_at_0%_110%,var(--accent-soft),transparent)]" />
         <div className="container-page relative grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <div className="animate-rise">
-            <Badge tone="primary">{profile.availability}</Badge>
+            <div className="flex items-center gap-4">
+              <img src={withBase("/profile/maria-bio-headshot-square.jpg")} alt={`Portrait of ${profile.name}`} width={72} height={72} className="size-16 rounded-full border-2 border-surface object-cover shadow-card sm:size-[72px]" />
+              <Badge tone="primary" className="whitespace-normal">{profile.availability}</Badge>
+            </div>
             <h1 className="mt-5 text-4xl font-semibold leading-[1.05] sm:text-6xl">
               I design calm, explainable tools for <span className="text-primary">messy real-world schedules</span>.
             </h1>

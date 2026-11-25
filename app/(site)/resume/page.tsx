@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Download, FileText } from "lucide-react";
 import { profile } from "@/lib/site";
+import { withBase } from "@/lib/utils";
 import { ButtonLink } from "@/components/ui/button";
 import { Honesty } from "@/components/site/blocks";
 
@@ -15,15 +16,20 @@ export default function Resume() {
         <div className="flex flex-wrap gap-2">
           <ButtonLink href="/downloads/maria-bio-resume.pdf" download><Download aria-hidden />Download PDF</ButtonLink>
           <ButtonLink href="/docs/resume/" variant="outline"><FileText aria-hidden />ATS plain-text version</ButtonLink>
+          <ButtonLink href="/downloads/maria-bio-resume-teamsnap.pdf" variant="outline" download><Download aria-hidden />TeamSnap-tailored resume</ButtonLink>
+          <ButtonLink href="/downloads/maria-bio-proposal-teamsnap.pdf" variant="outline" download><Download aria-hidden />Proposal</ButtonLink>
         </div>
       </div>
       <div className="no-print mb-6"><Honesty>Product design work shown here is from independent and founder projects. Professional experience is in public administration, teaching and customer service, and is listed as it is, without overstating UI/UX experience.</Honesty></div>
       <article className="card mx-auto max-w-3xl p-8 sm:p-12">
-        <header className="border-b border-border pb-5">
+        <header className="flex flex-col-reverse gap-5 border-b border-border pb-5 sm:flex-row sm:items-center sm:justify-between">
+          <div>
           <h2 className="text-3xl font-semibold">{profile.name}</h2>
           <p className="mt-1 text-primary">{profile.title}</p>
           <p className="mt-2 text-sm text-muted">{[profile.location, profile.contactEmail, profile.phone].filter(Boolean).join(" · ")}</p>
           <p className="text-sm text-muted">{[profile.linkedin.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), profile.github.replace(/^https?:\/\//, "")].filter(Boolean).join(" · ")}</p>
+        </div>
+          <img src={withBase("/profile/maria-bio-headshot.jpg")} alt={`Portrait of ${profile.name}`} width={112} height={140} className="w-24 shrink-0 rounded-xl border border-border object-cover sm:w-28" />
         </header>
         <section className="mt-6"><h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">Summary</h3>
           <p className="mt-2 text-sm leading-relaxed">Product designer with more than 15 years of public-sector experience in administration, research and policy management, plus a background in digital product development, systems management, process improvement, instructional design, research and data analysis. Designs and builds end-to-end digital products using AI-assisted development, with a focus on explainable automation, accessible interfaces and clear engineering handoff. Portfolio: SportSync (AI-assisted sports scheduling concept with working prototype), WideKonek, Frendora and ZC Smart Digital.</p></section>

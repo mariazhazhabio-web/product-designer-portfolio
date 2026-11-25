@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { BookOpen, FlaskConical, Landmark, Scale, Sparkles } from "lucide-react";
 import { profile } from "@/lib/site";
-import { PageHeader, Section } from "@/components/site/blocks";
+import { Section } from "@/components/site/blocks";
+import { withBase } from "@/lib/utils";
 import { ButtonLink } from "@/components/ui/button";
 
 export const metadata: Metadata = { title: "About", description: `About ${profile.name}, Product Designer.` };
@@ -16,7 +17,16 @@ const lenses = [
 export default function About() {
   return (
     <>
-      <PageHeader eyebrow="About me" title={profile.name} intro={<>{profile.title.replaceAll("|", "·")}<span className="mt-3 block">{profile.positioning}</span></>} />
+      <section className="border-b border-border bg-surface">
+        <div className="container-page grid items-center gap-10 py-14 sm:py-20 md:grid-cols-[1fr_auto]">
+          <div>
+            <p className="eyebrow">About me</p>
+            <h1 className="mt-3 max-w-4xl text-4xl font-semibold sm:text-5xl">{profile.name}</h1>
+            <div className="mt-5 max-w-3xl text-lg text-muted">{profile.title.replaceAll("|", "·")}<span className="mt-3 block">{profile.positioning}</span></div>
+          </div>
+          <img src={withBase("/profile/maria-bio-headshot.jpg")} alt={`Portrait of ${profile.name}`} width={320} height={400} className="mx-auto w-56 rounded-2xl border border-border object-cover shadow-card sm:w-64 md:w-72" />
+        </div>
+      </section>
       <div className="container-page">
         <Section title="How my background shapes my design work">
           <div className="grid gap-4 md:grid-cols-2">{lenses.map(({ Icon, t, d }) => <div key={t} className="card flex gap-4 p-5"><Icon className="size-6 shrink-0 text-primary" aria-hidden /><div><p className="font-semibold">{t}</p><p className="mt-1 text-sm text-muted">{d}</p></div></div>)}</div>

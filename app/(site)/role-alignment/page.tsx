@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight, Check } from "lucide-react";
 import { Honesty, PageHeader } from "@/components/site/blocks";
 import { alignment } from "@/content/delivery";
+import { withBase } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Role alignment", description: "How the SportSync project demonstrates the responsibilities of a Product Designer for sports scheduling experiences." };
 
@@ -26,6 +27,11 @@ export default function RoleAlignment() {
             </li>
           ))}
         </ol>
+        <div className="mt-10 flex flex-wrap gap-3">
+          <a href={withBase("/downloads/maria-bio-resume-teamsnap.pdf")} download className="rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-fg hover:bg-primary-hover">Download tailored resume (PDF)</a>
+          <a href={withBase("/downloads/maria-bio-proposal-teamsnap.pdf")} download className="rounded-lg border border-border-strong px-4 py-2.5 text-sm font-medium hover:bg-surface-2">Download proposal (PDF)</a>
+          <Link href="/docs/proposal-teamsnap/" className="rounded-lg border border-border-strong px-4 py-2.5 text-sm font-medium hover:bg-surface-2">Read the proposal online</Link>
+        </div>
         <div className="card mt-10 p-6 text-sm">
           <p className="font-semibold">What I bring beyond the project</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
