@@ -4,7 +4,7 @@
 
 **MARIA ZHA-ZHA CORNILLEZ BIO**
 Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer
-[City, Country] · [email] · [phone] · [LinkedIn URL] · Portfolio: [portfolio URL]
+[City, Country] · [email] · [phone] · linkedin.com/in/zha-zha-bio-56824a195 · Portfolio: product-designer-portfolio-alpha.vercel.app
 
 ## SUMMARY
 

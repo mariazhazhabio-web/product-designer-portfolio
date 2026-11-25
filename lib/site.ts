@@ -15,8 +15,8 @@ export const profile = {
   ],
   // Fill these in before publishing. Empty values are not displayed.
   contactEmail: "",
-  linkedin: "",
-  github: "",
+  linkedin: "https://www.linkedin.com/in/zha-zha-bio-56824a195/",
+  github: "https://github.com/mariazhazhabio-web",
   location: "",
   availability: "Open to Product Designer roles (remote / international)",
 };

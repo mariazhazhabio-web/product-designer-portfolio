@@ -2,10 +2,10 @@
 
 > Replace `[bracketed]` fields. Keep it to one page. Everything stated here is accurate to the portfolio; adjust any line you'd like to phrase differently.
 
-[Your name]
-[City, Country] · [email] · [phone] · [portfolio URL]
+Maria Zha-Zha Cornillez Bio
+[City, Country] · [email] · [phone] · linkedin.com/in/zha-zha-bio-56824a195 · https://product-designer-portfolio-alpha.vercel.app
 
-[Date]
+November 25, 2026
 
 Hiring Team, TeamSnap
 Re: Product Designer, Scheduling Experiences
@@ -28,6 +28,6 @@ What I bring alongside the design work is an unusual mix: chemical engineering t
 I would love to talk about how I could help coaches, parents and administrators spend less time on schedules and more time on the game. Thank you for your consideration.
 
 Sincerely,
-[Your name]
+Maria Zha-Zha Cornillez Bio
 
-Portfolio: [portfolio URL] · SportSync case study: [portfolio URL]/projects/sportsync/ · Role alignment: [portfolio URL]/role-alignment/
+Portfolio: https://product-designer-portfolio-alpha.vercel.app · SportSync case study: https://product-designer-portfolio-alpha.vercel.app/projects/sportsync/ · Role alignment: https://product-designer-portfolio-alpha.vercel.app/role-alignment/
