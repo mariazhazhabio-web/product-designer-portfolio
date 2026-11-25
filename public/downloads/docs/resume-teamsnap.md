@@ -1,51 +1,52 @@
 # Maria Zha-Zha Cornillez Bio
 
-**Product Designer, Scheduling Experiences** · UI/UX Designer · AI-Assisted Digital Product Developer
+**Product Designer, Scheduling** · UI/UX Designer · AI-Assisted Digital Product Developer
 
-Philippines (UTC+8) · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · Portfolio: product-designer-portfolio-alpha.vercel.app
+Philippines (UTC+8), remote · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · Portfolio: product-designer-portfolio-alpha.vercel.app
 
 ## SUMMARY
 
-Product designer focused on scheduling experiences for sports organizations. I designed and built SportSync, an independent end-to-end scheduling concept for league administrators, volunteer coaches, parents, athletes and facility managers, covering event creation, recurring schedules, conflict detection and resolution, explainable AI-assisted schedule generation, RSVP and attendance, and calendar sync, with a working prototype, a token-based design system and full engineering handoff. I bring more than 15 years of public-sector experience in administration, research and policy management, plus customer-facing and teaching experience, to designing tools that busy, non-technical people can trust.
+Product designer focused on scheduling for youth and community sports. I designed SportSync end to end, an independent scheduling concept for volunteer coaches, parents, league administrators, athletes and facility managers. It covers how teams, leagues and organizations create, import, edit and share schedules, and the full scheduling lifecycle: RSVP and availability, conflict detection, venue and facility constraints, recurring events, calendar sync and change notifications. I built it as a working, mobile-first prototype with AI-assisted schedule generation and conflict resolution, a design system, edge-case flows and engineering handoff through QA. I use AI throughout my own work to speed up research planning, ideation and prototyping. I bring more than 15 years of public-sector experience in administration, research and policy management, where small mistakes in workflows matter.
 
 ## HOW MY WORK MATCHES THE ROLE
 
-| Role responsibility | Evidence |
+| Role responsibility | Evidence in my portfolio |
 |---|---|
-| End-to-end scheduling experiences | SportSync covers the full lifecycle: create, schedule, detect conflicts, reschedule, notify, RSVP and sync, as a live prototype |
-| Consistency across web, iOS and Android | One semantic token system; documented platform conventions (tab bar vs navigation bar, sheets, pickers, back behaviour) |
-| Complete scheduling lifecycle | Recurring events with "this / following / all" edits, postponement queue, cancel and restore, duplicate, undo and revision history |
-| Coaches, parents and league administrators | Six roles with permissions; per-child RSVP for parents; expected attendance for coaches; approval flow for admins |
-| Prototyping and usability testing | Interactive hi-fi prototype; complete test plan with six scenarios, moderator script, SUS and severity matrix (sessions pending) |
-| AI-assisted schedule generation | Plain-language assistant that shows what it understood, explains decisions and fairness, and requires human approval with undo (rule-based simulation, clearly labeled) |
-| Conflict detection and resolution | 10 conflict types; plain-language causes; three ranked alternatives compared side by side before confirming |
-| User flows and high-fidelity designs | 9 user flows, 2 decision trees, sitemap, 28 screens in low, mid and high fidelity |
-| Engineering collaboration and QA | PRD, user stories with acceptance criteria, API and database specs, QA plan, traceability matrix, 8 unit and 15 end-to-end tests |
-| Reusable design system components | Token-driven components with documented states, WCAG 2.2 AA contrast checks, Figma handoff package |
-| Success metrics and improvements | 11 proposed metrics (conflict rate, resolution rate, RSVP rate, AI acceptance and more), each tied to a design decision |
+| Design the scheduling experience end to end | SportSync: teams, leagues and organizations create, import, edit and share schedules in a live prototype |
+| Consistency across web, iOS and Android | One semantic token system; side-by-side web, iOS and Android conventions for navigation, sheets, pickers and back behaviour |
+| The full scheduling lifecycle | Creating and importing schedules (CSV with validation), RSVP and availability, conflict detection, venue and facility constraints, recurring events with "this / following / all" edits, calendar sync (.ics, Google, Outlook), change notifications |
+| Flows for volunteer coaches, parents and league administrators, often on a phone | Mobile-first navigation; per-child RSVP for parents; expected attendance and reminders for coaches; review and approval for admins; six role permissions |
+| Learning from customers | Interview guide, survey, provisional personas and a usability test plan with six scenarios, SUS and severity matrix, ready to run (sessions not yet conducted) |
+| AI-assisted scheduling: generation, conflict resolution, faster edits | Plain-language assistant that shows what it understood, explains its choices and fairness, lets you edit rows, and publishes only on approval, with undo. Rule-based simulation, clearly labeled |
+| Complex problems into flows, wireframes and high-fidelity designs with edge cases | 9 user flows, 2 decision trees, 28 screens in low, mid and high fidelity, a documented list of 30 edge cases |
+| Ship with engineering through QA | PRD, user stories with acceptance criteria, API and database specs, QA checklist and test cases, traceability matrix, 8 unit and 15 end-to-end tests |
+| Contribute to the design system | Token-driven components with documented states and variants, contrast checks, W3C design tokens and a Figma import guide |
+| Define success metrics and review outcomes | 11 proposed metrics (conflict rate, conflict resolution rate, RSVP response, calendar sync adoption, AI acceptance and more), each tied to a design decision |
 
 ## SKILLS
 
-- **Product & UX:** end-to-end experience design, research planning, interview and survey design, personas, Jobs-to-be-Done, journey and opportunity mapping, information architecture, user flows, decision trees, wireframing, prototyping, usability test planning, RICE/MoSCoW
-- **UI & systems:** design systems and tokens, component states, responsive and cross-platform (web, iOS, Android) design, accessibility (WCAG 2.2 AA)
-- **Scheduling domain:** recurring events and edit scopes, conflict rules (venues, availability, rest periods, facility hours), tournament formats (round robin, pool play, playoffs), RSVP and attendance, iCalendar (.ics) export
-- **AI:** explainable, human-in-the-loop automation design; AI-assisted product development
-- **Collaboration & build:** PRDs, user stories, acceptance criteria, API and data modelling, QA planning, TypeScript, React, Next.js, Tailwind CSS, Supabase/PostgreSQL, Playwright
+- **Design:** interaction design, information architecture, UI design, user flows, wireframes, high-fidelity design, prototyping, edge-case and state design (loading, empty, error, offline, permissions)
+- **Research:** research planning, interview guides, surveys, usability test planning, personas, Jobs-to-be-Done, journey and opportunity mapping, RICE and MoSCoW prioritisation
+- **Systems & accessibility:** design systems, design tokens, component variants and states, WCAG 2.2 AA, mobile-first and cross-platform (web, iOS, Android) design
+- **Scheduling domain:** recurring events and edit scopes; conflict rules for venues, availability, rest periods and facility hours; tournament formats (round robin, pool play, playoffs); RSVP and attendance; calendar sync (iCalendar)
+- **AI:** designing explainable, human-in-the-loop AI features; AI-assisted research planning, ideation and prototyping
+- **Product & collaboration:** problem framing, PRDs, user stories and acceptance criteria, QA planning, success metrics; written explanation of trade-offs; working with engineers through implementation
+- **Build:** TypeScript, React, Next.js, Tailwind CSS, Supabase/PostgreSQL, Playwright
 
 ## SELECTED PROJECTS
 
-**SportSync: AI-Assisted Sports Scheduling (Independent portfolio project)**, 2026
-- Designed the scheduling experience for six roles from problem framing to handoff: research plan, 7 hypotheses, 5 provisional personas, journey and opportunity maps, 9 user flows and 28 screens.
-- Built a working prototype with a rule-based engine that detects 10 conflict types and ranks conflict-free alternatives. Generates an 8-team, 3-weekend tournament (24 games, one game per team per day) and explains why it chose pool play.
-- Designed trust into automation: visible "what I understood", reasons and trade-offs, edit-before-approve, coach drafts vs admin approval, undo and revision history.
-- Delivered engineering handoff and automated tests; defined success metrics and a usability test plan ready to run.
+**SportSync: AI-assisted sports scheduling (independent portfolio project)**, 2026
+- Framed the problem and planned research (7 hypotheses, interview guide, survey), then designed IA, 9 flows and 28 screens for six user roles.
+- Built a mobile-first, working prototype with a rule-based engine that detects 10 conflict types (double-booked venues, overlapping teams, unavailable coaches and players, insufficient rest, closures, opening hours, maintenance, capacity, recurring clashes) and compares three ranked fixes before anything changes.
+- Designed AI-assisted schedule generation people can trust: an 8-team, 3-weekend tournament (24 games, one per team per day) with "what I understood", reasons, edit-before-approve and undo.
+- Delivered engineering handoff and automated tests, plus proposed success metrics and a usability test plan.
 
-**WideKonek: Professional Networking, Recruitment & Freelance Marketplace (Founder)**
-- Designed and built two-sided workflows (employer applicant pipeline and applicant progress tracking; freelancer gigs, inquiries and milestone orders) with role-based onboarding.
-- Implemented Row Level Security on every table, covered by 196 automated database tests.
+**WideKonek: two-sided networking, recruitment and freelance marketplace for businesses and professionals (founder)**
+- Designed and built two-sided workflows for employers, candidates, freelancers and clients: role-based onboarding, job posting and search, an applicant pipeline with status tracking, and gig orders with milestones.
+- Implemented database-level security (Row Level Security on every table), covered by 196 automated tests.
 
-**ZC Smart Digital: Digital Solutions & Automation (Founder)**
-- Built six client-style demos, including a booking app and a lead-to-CRM automation, and designed an n8n/HubSpot workflow.
+**ZC Smart Digital: digital solutions and automation (founder)**
+- Built six client-style demos, including a mobile-friendly booking app and a lead-to-CRM automation, and designed an n8n/HubSpot workflow.
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -71,6 +72,6 @@ Licensed Professional Teacher (PRC) · Registered Criminologist (PRC) · Registe
 
 ## AVAILABILITY
 
-Remote, part-time or flexible working hours · Philippine Standard Time (UTC+8), international hours by agreed schedule · Start date subject to agreement · Interviews by appointment
+Remote · comfortable working with teammates in other time zones, with overlap with US hours by agreed schedule · start date subject to agreement · interviews by appointment
 
 *SportSync is an independent portfolio project, not affiliated with or endorsed by TeamSnap.*
