@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: <html class="dark"> is set by the theme script in app/layout.tsx */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------
+   Design tokens (single source of truth; mirrored in design-handoff/tokens.json)
+   Contrast targets: body text >= 7:1, secondary text >= 4.5:1, UI >= 3:1 (WCAG 2.2 AA)
+------------------------------------------------------------------- */
+:root {
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --surface-2: #f0f1ec;
+  --surface-3: #e6e8e1;
+  --border: #d9dcd3;
+  --border-strong: #b9beb2;
+  --text: #14181f;
+  --muted: #4f5866; /* 7.0:1 on --bg */
+  --subtle: #6b7380; /* 4.6:1 on white */
+
+  --primary: #0b6e5b; /* SportSync "Pitch" green, 6.2:1 on white */
+  --primary-hover: #095c4c;
+  --primary-soft: #e1f2ec;
+  --primary-fg: #ffffff;
+
+  --accent: #c2410c; /* "Ember" orange for highlights, 5.2:1 on white */
+  --accent-soft: #fdeee4;
+
+  --info: #1d4ed8;
+  --info-soft: #e5ecfd;
+  --success: #15803d;
+  --success-soft: #e3f4e8;
+  --warning: #a35c00;
+  --warning-soft: #fff2db;
+  --danger: #b42318;
+  --danger-soft: #fdeceb;
+
+  --ring: #1d4ed8;
+  --shadow: 0 1px 2px rgb(20 24 31 / 0.06), 0 8px 24px -12px rgb(20 24 31 / 0.18);
+
+  /* Event-type colors (each passes 3:1 against surface for non-text use) */
+  --ev-game: #0b6e5b;
+  --ev-practice: #1d4ed8;
+  --ev-tournament: #c2410c;
+  --ev-meeting: #6d28d9;
+}
+
+.dark {
+  --bg: #0c1016;
+  --surface: #131922;
+  --surface-2: #1a212c;
+  --surface-3: #232c39;
+  --border: #2b3543;
+  --border-strong: #3d4a5c;
+  --text: #eef1f5;
+  --muted: #a9b3c1;
+  --subtle: #8c97a6;
+
+  --primary: #38c9a4;
+  --primary-hover: #5fd8b8;
+  --primary-soft: #10322b;
+  --primary-fg: #06231c;
+
+  --accent: #ff9a62;
+  --accent-soft: #3a2117;
+
+  --info: #7aa2ff;
+  --info-soft: #18254a;
+  --success: #4ade80;
+  --success-soft: #10301d;
+  --warning: #fbbf24;
+  --warning-soft: #33270b;
+  --danger: #ff8a80;
+  --danger-soft: #3b1715;
+
+  --ring: #7aa2ff;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 30px -12px rgb(0 0 0 / 0.6);
+
+  --ev-game: #38c9a4;
+  --ev-practice: #7aa2ff;
+  --ev-tournament: #ff9a62;
+  --ev-meeting: #c4a7ff;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-display-face), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-fg: var(--primary-fg);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-ring: var(--ring);
+  --color-ev-game: var(--ev-game);
+  --color-ev-practice: var(--ev-practice);
+  --color-ev-tournament: var(--ev-tournament);
+  --color-ev-meeting: var(--ev-meeting);
+
+  --shadow-card: var(--shadow);
+  --radius-card: 14px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    overflow-x: clip;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  ::selection { background: var(--primary-soft); }
+  /* Grid items may shrink below their content width (prevents horizontal page scroll on phones) */
+  :where(.grid) > * { min-width: 0; }
+  dialog::backdrop { background: rgb(8 12 18 / 0.55); backdrop-filter: blur(2px); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .container-page { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 640px) { .container-page { padding-inline: 1.5rem; } }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); box-shadow: var(--shadow); }
+  .eyebrow { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+  .prose-doc { line-height: 1.7; color: var(--text); overflow-wrap: anywhere; }
+  .prose-doc h1 { font-size: 2rem; font-weight: 700; margin: 0 0 1rem; }
+  .prose-doc h2 { font-size: 1.4rem; font-weight: 700; margin: 2.2rem 0 0.75rem; padding-top: 0.5rem; border-top: 1px solid var(--border); }
+  .prose-doc h3 { font-size: 1.1rem; font-weight: 650; margin: 1.6rem 0 0.5rem; }
+  .prose-doc p, .prose-doc ul, .prose-doc ol, .prose-doc table, .prose-doc pre, .prose-doc blockquote { margin: 0 0 1rem; }
+  .prose-doc ul { list-style: disc; padding-left: 1.4rem; }
+  .prose-doc ol { list-style: decimal; padding-left: 1.4rem; }
+  .prose-doc li { margin: 0.2rem 0; }
+  .prose-doc a { color: var(--info); text-decoration: underline; text-underline-offset: 2px; }
+  .prose-doc code { font-size: 0.88em; background: var(--surface-2); padding: 0.1rem 0.35rem; border-radius: 5px; }
+  .prose-doc pre { background: var(--surface-2); padding: 1rem; border-radius: 10px; overflow-x: auto; font-size: 0.85rem; }
+  .prose-doc pre code { background: none; padding: 0; }
+  .prose-doc blockquote { border-left: 3px solid var(--accent); padding: 0.25rem 1rem; color: var(--muted); background: var(--surface-2); border-radius: 0 8px 8px 0; }
+  .prose-doc table { width: 100%; border-collapse: collapse; font-size: 0.9rem; display: block; overflow-x: auto; }
+  .prose-doc th, .prose-doc td { border: 1px solid var(--border); padding: 0.45rem 0.65rem; text-align: left; vertical-align: top; }
+  .prose-doc th { background: var(--surface-2); font-weight: 600; }
+  .prose-doc hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
+  .prose-doc input[type="checkbox"] { margin-right: 0.4rem; }
+}
+
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.animate-rise { animation: rise 0.6s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes shimmer { 0% { background-position: -400px 0; } 100% { background-position: 400px 0; } }
+.skeleton { background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%); background-size: 800px 100%; animation: shimmer 1.4s linear infinite; border-radius: 8px; }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; color: #000; }
+  .card { box-shadow: none; }
+  .print-break { break-before: page; }
+}
