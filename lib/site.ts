@@ -3,7 +3,7 @@
 
 export const profile = {
   name: "Maria Zha-Zha Cornillez Bio",
-  shortName: "Maria Bio",
+  shortName: "Maria Zha-Zha C. Bio",
   title: "Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer",
   positioning:
     "A multidisciplinary professional with a background in digital product development, systems management, process improvement, instructional design, research, data analysis, and AI-assisted solutions.",

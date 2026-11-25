@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display-face", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "Maria Bio · Product Designer Portfolio", template: "%s · Maria Bio" },
+  title: { default: "Maria Zha-Zha C. Bio · Product Designer Portfolio", template: "%s · Maria Zha-Zha C. Bio" },
   description:
     "Product Designer and UI/UX portfolio of Maria Zha-Zha Cornillez Bio, featuring SportSync, an AI-assisted sports scheduling prototype, plus WideKonek, Frendora and ZC Smart Digital.",
 };

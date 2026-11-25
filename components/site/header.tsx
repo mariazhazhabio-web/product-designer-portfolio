@@ -27,9 +27,9 @@ export function ThemeToggle({ className }: { className?: string }) {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5 font-[family-name:var(--font-display)] font-semibold tracking-tight" aria-label={`${profile.name}, home`}>
-      <span aria-hidden className="flex size-8 items-center justify-center rounded-lg bg-text text-sm font-bold text-bg">MB</span>
-      <span className="hidden whitespace-nowrap sm:inline">Maria Bio</span>
-      <span className="hidden whitespace-nowrap text-sm font-normal text-muted lg:inline">· Product Designer</span>
+      <span aria-hidden className="flex size-8 items-center justify-center rounded-lg bg-text text-[11px] font-bold text-bg">MZB</span>
+      <span className="hidden whitespace-nowrap sm:inline">Maria Zha-Zha C. Bio</span>
+      <span className="hidden whitespace-nowrap text-sm font-normal text-muted 2xl:inline">· Product Designer</span>
     </Link>
   );
 }

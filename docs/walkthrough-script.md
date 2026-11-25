@@ -3,7 +3,7 @@
 For a screening call or a recorded video. Roughly 650 words spoken at a natural pace.
 
 **[0:00, Home page]**
-"Hi, I'm Maria Bio. I design and build digital products, and I'm especially drawn to messy, real-world workflows like scheduling. In the next five minutes I'll show you SportSync, my featured project, and quickly mention the products I've founded."
+"Hi, I'm Maria Zha-Zha C. Bio. I design and build digital products, and I'm especially drawn to messy, real-world workflows like scheduling. In the next five minutes I'll show you SportSync, my featured project, and quickly mention the products I've founded."
 
 **[0:20, SportSync case study header]**
 "SportSync is an independent concept for leagues, coaches, parents, athletes and facility managers. It's not affiliated with any company. I designed it end to end and built a working prototype. Two honesty notes: the research is planned but not yet run, and the AI is a rule-based simulation."

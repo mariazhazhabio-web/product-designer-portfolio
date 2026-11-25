@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Author | Maria Bio |
+| Author | Maria Zha-Zha C. Bio |
 | Status | Draft v1, prototype implemented; research pending |
 | Last updated | 2026-11-25 |
 

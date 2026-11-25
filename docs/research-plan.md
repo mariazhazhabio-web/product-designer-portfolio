@@ -1,6 +1,6 @@
 # SportSync UX research plan
 
-**Status:** Planned, not started. Owner: Maria Bio. Update this file as research happens.
+**Status:** Planned, not started. Owner: Maria Zha-Zha C. Bio. Update this file as research happens.
 
 ## 1. Background
 SportSync is a concept for AI-assisted sports scheduling. Design so far rests on desk research and assumptions (see hypotheses H1–H7 on the Research page). This plan replaces assumptions with evidence before further investment.

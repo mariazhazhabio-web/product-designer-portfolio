@@ -1,4 +1,4 @@
-# Maria Bio · Product Designer Portfolio
+# Maria Zha-Zha C. Bio · Product Designer Portfolio
 
 **Live site:** https://product-designer-portfolio-alpha.vercel.app · **Prototype:** https://product-designer-portfolio-alpha.vercel.app/demo/
 
