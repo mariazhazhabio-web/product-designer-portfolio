@@ -1,6 +1,7 @@
 # Proposal: How I would approach Product Design for TeamSnap scheduling
 
 **Prepared by:** Maria Zha-Zha Cornillez Bio, Product Designer candidate · mariazhazhabio@gmail.com · linkedin.com/in/zha-zha-bio-56824a195
+
 **Portfolio:** product-designer-portfolio-alpha.vercel.app · **Case study:** product-designer-portfolio-alpha.vercel.app/projects/sportsync/
 
 > **Read this as a starting point, not an audit.** I have no access to TeamSnap's data, research or roadmap, and I haven't evaluated TeamSnap's product for this document. Every idea below is a hypothesis drawn from my independent SportSync project, to be tested against TeamSnap's real users and metrics. SportSync is not affiliated with or endorsed by TeamSnap.

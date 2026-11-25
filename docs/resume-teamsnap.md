@@ -1,7 +1,7 @@
-# Resume: Product Designer, Scheduling (TeamSnap application)
+# Maria Zha-Zha Cornillez Bio
 
-**MARIA ZHA-ZHA CORNILLEZ BIO**
-Product Designer, Scheduling Experiences | UI/UX Designer | AI-Assisted Digital Product Developer
+**Product Designer, Scheduling Experiences** · UI/UX Designer · AI-Assisted Digital Product Developer
+
 Philippines (UTC+8) · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · Portfolio: product-designer-portfolio-alpha.vercel.app
 
 ## SUMMARY
