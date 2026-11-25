@@ -55,7 +55,7 @@ Next.js 16 (App Router, static export) · React 19 · TypeScript · Tailwind CSS
 | Undo, revision history, roles & permissions | Multi-user data and server share links |
 
 ## Deployment
-See [`docs/deployment-guide.md`](docs/deployment-guide.md): Vercel, Netlify, Cloudflare Pages or GitHub Pages (workflow included at `.github/workflows/pages.yml`).
+See [`docs/deployment-guide.md`](docs/deployment-guide.md): Vercel, Netlify, Cloudflare Pages or GitHub Pages (workflow template in `docs/github-pages-workflow.yml`).
 
 ## Personal details
 Edit `lib/site.ts` (email, LinkedIn, GitHub, location). Empty fields are hidden. Complete the bracketed fields in `docs/resume.md` and `docs/cover-letter.md` before sending.

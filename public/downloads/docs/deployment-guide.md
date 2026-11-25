@@ -42,7 +42,7 @@ gh repo create product-designer-portfolio --public --source . --push
 2. Framework preset: *Next.js (Static HTML Export)*; build `npm run build`; output `out`.
 
 ## 3d. GitHub Pages (project site at `/<repo>/`)
-The site supports a base path. A workflow is included at `.github/workflows/pages.yml`:
+The site supports a base path. A ready workflow is in `docs/github-pages-workflow.yml`; copy it to `.github/workflows/pages.yml` (pushing workflows needs `gh auth refresh -s workflow`):
 1. Repository → Settings → Pages → Source: **GitHub Actions**.
 2. Push to `main`. The workflow builds with `NEXT_PUBLIC_BASE_PATH=/product-designer-portfolio` and publishes `out/`.
 
