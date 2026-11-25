@@ -59,7 +59,7 @@ Last updated: 2026-11-25.
 - ✅ README, deployment guide, GitHub Pages workflow
 - ✅ Case study PDF (`/downloads/sportsync-case-study.pdf`)
 - ⏳ Fill in `lib/site.ts` contact details (email/LinkedIn/GitHub) if they should be public
-- ⏳ Push to GitHub and deploy (needs Maria's accounts)
+- ✅ Pushed to GitHub (github.com/mariazhazhabio-web/product-designer-portfolio) and deployed on Vercel: https://product-designer-portfolio-alpha.vercel.app (auto-deploys on push to main)
 
 ## Known limitations
 - Prototype time zone = viewer's device; no DST-aware server recurrence.

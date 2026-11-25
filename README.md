@@ -1,5 +1,7 @@
 # Maria Bio · Product Designer Portfolio
 
+**Live site:** https://product-designer-portfolio-alpha.vercel.app · **Prototype:** https://product-designer-portfolio-alpha.vercel.app/demo/
+
 Portfolio of **Maria Zha-Zha Cornillez Bio**, Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer.
 
 Featured project: **SportSync: Smarter Scheduling. Stronger Teams.**, an original, AI-assisted sports scheduling and team management concept with a working prototype, research kit, design system and engineering handoff. Also includes case studies for **WideKonek**, **Frendora** and **ZC Smart Digital**.
