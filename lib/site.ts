@@ -74,7 +74,6 @@ export const allPages = [
     { href: "/skills/", label: "Technical skills" },
     { href: "/resume/", label: "Resume" },
     { href: "/contact/", label: "Contact" },
-    { href: "/role-alignment/", label: "Role alignment" },
   ]},
   { group: "SportSync case study", items: [
     { href: "/projects/sportsync/", label: "Case study (22 sections)" },

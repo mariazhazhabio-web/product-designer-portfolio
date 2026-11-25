@@ -5,7 +5,7 @@ import { Honesty, PageHeader } from "@/components/site/blocks";
 import { alignment } from "@/content/delivery";
 import { withBase } from "@/lib/utils";
 
-export const metadata: Metadata = { title: "Role alignment", description: "How the SportSync project demonstrates the responsibilities of a Product Designer for sports scheduling experiences." };
+export const metadata: Metadata = { title: "Role alignment", description: "How the SportSync project demonstrates the responsibilities of a Product Designer for sports scheduling experiences.", robots: { index: false, follow: false } };
 
 export default function RoleAlignment() {
   return (

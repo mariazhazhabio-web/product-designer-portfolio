@@ -66,3 +66,10 @@ Last updated: 2026-11-25.
 - Prototype time zone = viewer's device; no DST-aware server recurrence.
 - Week view becomes dense on very busy days (day-by-venue view recommended).
 - Share links show sample data + the opening browser's saved changes (no server).
+
+## General-purpose mode (2026-11-25)
+The site is now a general portfolio. TeamSnap-specific material is kept but unlinked:
+- `/role-alignment/` (not in navigation, `noindex`)
+- `/docs/resume-teamsnap/`, `/docs/proposal-teamsnap/`, `/docs/cover-letter/` (built, not listed in the documents library; see `UNLISTED_DOCS` in `lib/docs.ts`)
+- PDFs: `/downloads/maria-bio-resume-teamsnap.pdf`, `maria-bio-cover-letter-teamsnap.pdf`, `maria-bio-proposal-teamsnap.pdf`
+For a new application, copy these as templates and tailor them to the new posting.

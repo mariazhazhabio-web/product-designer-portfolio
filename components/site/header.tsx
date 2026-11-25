@@ -59,7 +59,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="ml-auto flex items-center gap-1 xl:ml-2">
-          <ButtonLink href="/role-alignment/" variant="outline" size="sm" className="hidden sm:inline-flex">Role alignment</ButtonLink>
+          <ButtonLink href="/resume/" variant="outline" size="sm" className="hidden sm:inline-flex">Resume</ButtonLink>
           <ThemeToggle />
           <Button variant="ghost" size="icon" aria-expanded={menu} aria-controls="all-pages" aria-label="All pages" onClick={() => setMenu((m) => !m)}>
             {menu ? <X /> : <LayoutGrid />}
@@ -96,7 +96,7 @@ export function SiteFooter() {
           <Logo />
           <p className="mt-3 max-w-md text-muted">{profile.title}</p>
           <p className="mt-3 max-w-md text-xs text-subtle">
-            SportSync is an independent product design and development portfolio project. It is not affiliated with, commissioned by, or endorsed by TeamSnap or any other company. All people, teams and data in the demo are fictional.
+            SportSync is an independent product design and development portfolio project. It is not affiliated with, commissioned by, or endorsed by any company. All people, teams and data in the demo are fictional.
           </p>
         </div>
         <div>
@@ -113,7 +113,6 @@ export function SiteFooter() {
           <ul className="mt-2 space-y-1.5 text-muted">
             <li><Link className="hover:text-text" href="/contact/">Contact</Link></li>
             <li><Link className="hover:text-text" href="/resume/">Resume</Link></li>
-            <li><Link className="hover:text-text" href="/role-alignment/">Role alignment</Link></li>
           </ul>
         </div>
       </div>

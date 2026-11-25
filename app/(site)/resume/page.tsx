@@ -16,8 +16,6 @@ export default function Resume() {
         <div className="flex flex-wrap gap-2">
           <ButtonLink href="/downloads/maria-bio-resume.pdf" download><Download aria-hidden />Download PDF</ButtonLink>
           <ButtonLink href="/docs/resume/" variant="outline"><FileText aria-hidden />ATS plain-text version</ButtonLink>
-          <ButtonLink href="/downloads/maria-bio-resume-teamsnap.pdf" variant="outline" download><Download aria-hidden />TeamSnap-tailored resume</ButtonLink>
-          <ButtonLink href="/downloads/maria-bio-proposal-teamsnap.pdf" variant="outline" download><Download aria-hidden />Proposal</ButtonLink>
         </div>
       </div>
       <div className="no-print mb-6"><Honesty>Product design work shown here is from independent and founder projects. Professional experience is in public administration, teaching and customer service, and is listed as it is, without overstating UI/UX experience.</Honesty></div>
@@ -51,7 +49,7 @@ export default function Resume() {
         <section className="mt-6"><h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">Availability</h3>
           <p className="mt-2 text-sm text-muted">{profile.availabilityDetails.map(([k, v]) => `${k}: ${v}`).join(" · ")}</p></section>
       </article>
-      <p className="no-print mt-6 text-center text-sm text-muted">Also see the <Link href="/docs/cover-letter/" className="text-info underline">tailored cover letter</Link> and <Link href="/docs/portfolio-introduction/" className="text-info underline">portfolio introduction</Link>.</p>
+      <p className="no-print mt-6 text-center text-sm text-muted">Also see my <Link href="/docs/portfolio-introduction/" className="text-info underline">portfolio introduction</Link> and the <Link href="/projects/sportsync/" className="text-info underline">SportSync case study</Link>.</p>
     </div>
   );
 }

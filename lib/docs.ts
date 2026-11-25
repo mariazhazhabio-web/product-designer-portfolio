@@ -4,13 +4,16 @@ import path from "node:path";
 const DIR = path.join(process.cwd(), "docs");
 
 export const DOC_GROUPS: { group: string; slugs: string[] }[] = [
-  { group: "Job application", slugs: ["resume-teamsnap", "proposal-teamsnap", "resume", "cover-letter", "portfolio-introduction", "sportsync-one-pager", "interview-prep", "case-study-script", "walkthrough-script"] },
+  { group: "Job application", slugs: ["resume", "portfolio-introduction", "sportsync-one-pager", "interview-prep", "case-study-script", "walkthrough-script"] },
   { group: "UX research", slugs: ["research-plan", "interview-guide", "survey", "research-synthesis-template"] },
   { group: "Usability testing", slugs: ["usability-test-plan", "iteration-report-template"] },
   { group: "Engineering handoff", slugs: ["prd", "user-stories", "component-specs", "api-spec", "database-schema", "responsive-a11y-specs", "edge-cases", "traceability", "backlog"] },
   { group: "QA & release", slugs: ["qa-test-plan", "bug-report-template", "release-checklist"] },
   { group: "Design system & project", slugs: ["figma-handoff", "deployment-guide"] },
 ];
+
+/** Application-specific documents: built and reachable by direct link, but not listed in the library. */
+export const UNLISTED_DOCS = ["resume-teamsnap", "proposal-teamsnap", "cover-letter"];
 
 export function listDocs() {
   if (!fs.existsSync(DIR)) return [];

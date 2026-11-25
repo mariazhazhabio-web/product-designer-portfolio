@@ -73,7 +73,7 @@ export default function Home() {
             </ul>
             <div className="mt-8 flex flex-wrap gap-3">
               <ButtonLink href="/projects/sportsync/">Case study<ArrowRight aria-hidden /></ButtonLink>
-              <ButtonLink href="/role-alignment/" variant="outline">How it maps to the role</ButtonLink>
+              <ButtonLink href="/demo/" variant="outline">Try the prototype</ButtonLink>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-3 bg-surface-2 p-5">

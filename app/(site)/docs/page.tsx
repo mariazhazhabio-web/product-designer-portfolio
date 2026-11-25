@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FileText } from "lucide-react";
 import { PageHeader } from "@/components/site/blocks";
-import { DOC_GROUPS, listDocs, readDoc } from "@/lib/docs";
+import { DOC_GROUPS, listDocs, readDoc, UNLISTED_DOCS } from "@/lib/docs";
 
 export const metadata: Metadata = { title: "Documents library", description: "Research, testing, engineering, QA and job application documents for the portfolio." };
 
 export default function DocsIndex() {
   const all = new Set(listDocs());
   const grouped = new Set(DOC_GROUPS.flatMap((g) => g.slugs));
-  const extra = [...all].filter((s) => !grouped.has(s));
+  const extra = [...all].filter((s) => !grouped.has(s) && !UNLISTED_DOCS.includes(s));
   const groups = [...DOC_GROUPS, ...(extra.length ? [{ group: "Other", slugs: extra }] : [])];
   return (
     <>

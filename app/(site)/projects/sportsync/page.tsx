@@ -56,7 +56,7 @@ export default function SportSyncCaseStudy() {
           <Section id="overview" eyebrow="01" title="Project overview">
             <KeyValue items={[["Type", "Independent concept + working prototype"], ["Timeline", "Self-directed portfolio project, 2026"], ["Platforms", "Responsive web; iOS & Android patterns"], ["Status", "Prototype complete · research & testing pending"]]} />
             <p className="mt-6 max-w-3xl text-muted">SportSync is an original product concept I designed and built to demonstrate how I approach scheduling-heavy products. It covers the whole scheduling lifecycle (creating, generating, checking, changing, communicating and syncing schedules) with a working rule-based scheduling engine behind the interface.</p>
-            <div className="mt-6"><Honesty><strong>Transparency note.</strong> SportSync is not affiliated with, commissioned by, or endorsed by TeamSnap or any other company, and does not use any company&apos;s proprietary interface or assets. Personas and pain points are hypotheses; no interviews or usability tests have been run yet. The AI is simulated with a deterministic engine. All data is fictional.</Honesty></div>
+            <div className="mt-6"><Honesty><strong>Transparency note.</strong> SportSync is not affiliated with, commissioned by, or endorsed by any company, and does not use any company&apos;s proprietary interface or assets. Personas and pain points are hypotheses; no interviews or usability tests have been run yet. The AI is simulated with a deterministic engine. All data is fictional.</Honesty></div>
           </Section>
 
           <Section id="challenge" eyebrow="02" title="Product challenge">
