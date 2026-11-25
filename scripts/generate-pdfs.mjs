@@ -14,8 +14,8 @@ await ctx.addInitScript(() => { try { localStorage.setItem("theme", "light"); } 
 fs.mkdirSync("public/downloads", { recursive: true });
 
 const jobs = [
-  { path: "/projects/sportsync/", out: "public/downloads/sportsync-case-study.pdf", title: "SportSync case study · Maria Zha-Zha Cornillez Bio" },
-  { path: "/resume/", out: "public/downloads/maria-bio-resume.pdf", title: "Resume · Maria Zha-Zha Cornillez Bio" },
+  { path: "/projects/sportsync/", out: "public/downloads/sportsync-case-study.pdf", title: "SportSync case study · Maria Zha-Zha C. Bio" },
+  { path: "/resume/", out: "public/downloads/maria-bio-resume.pdf", title: "Resume · Maria Zha-Zha C. Bio" },
 ];
 
 for (const job of jobs) {

@@ -1,6 +1,6 @@
 # Proposal: How I would approach the Product Designer, Scheduling role at TeamSnap
 
-**Prepared by:** Maria Zha-Zha Cornillez Bio, Product Designer candidate · mariazhazhabio@gmail.com · linkedin.com/in/zha-zha-bio-56824a195
+**Prepared by:** Maria Zha-Zha C. Bio, Product Designer candidate · mariazhazhabio@gmail.com · linkedin.com/in/zha-zha-bio-56824a195
 
 **Portfolio:** product-designer-portfolio-alpha.vercel.app · **Case study:** product-designer-portfolio-alpha.vercel.app/projects/sportsync/
 
@@ -106,4 +106,4 @@ Targets would be set from TeamSnap's current baselines.
 
 I'd welcome a conversation to walk through the SportSync prototype and hear which scheduling problems matter most to the team right now.
 
-Maria Zha-Zha Cornillez Bio
+Maria Zha-Zha C. Bio

@@ -2,7 +2,7 @@
 
 > Plain single-column layout that applicant tracking systems read reliably. Product design work is from independent and founder projects; professional experience is listed as it is, without overstating UI/UX experience.
 
-**MARIA ZHA-ZHA CORNILLEZ BIO**
+**MARIA ZHA-ZHA C. BIO**
 Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer
 Philippines (UTC+8) · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · github.com/mariazhazhabio-web · Portfolio: product-designer-portfolio-alpha.vercel.app
 

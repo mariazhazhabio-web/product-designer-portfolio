@@ -2,7 +2,7 @@
   "name": "product-designer-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Product design portfolio of Maria Zha-Zha Cornillez Bio, featuring the SportSync scheduling prototype.",
+  "description": "Product design portfolio of Maria Zha-Zha C. Bio, featuring the SportSync scheduling prototype.",
   "scripts": {
     "dev": "next dev",
     "prebuild": "tsx scripts/prepare.ts",

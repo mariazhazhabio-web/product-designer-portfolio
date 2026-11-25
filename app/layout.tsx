@@ -8,7 +8,7 @@ const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display-fa
 export const metadata: Metadata = {
   title: { default: "Maria Zha-Zha C. Bio · Product Designer Portfolio", template: "%s · Maria Zha-Zha C. Bio" },
   description:
-    "Product Designer and UI/UX portfolio of Maria Zha-Zha Cornillez Bio, featuring SportSync, an AI-assisted sports scheduling prototype, plus WideKonek, Frendora and ZC Smart Digital.",
+    "Product Designer and UI/UX portfolio of Maria Zha-Zha C. Bio, featuring SportSync, an AI-assisted sports scheduling prototype, plus WideKonek, Frendora and ZC Smart Digital.",
 };
 
 export const viewport: Viewport = {

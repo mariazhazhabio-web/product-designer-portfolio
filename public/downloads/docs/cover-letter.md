@@ -2,7 +2,7 @@
 
 > Ready to send. Everything stated here is accurate to the portfolio and the experience you provided; adjust any line you'd like to phrase differently.
 
-Maria Zha-Zha Cornillez Bio
+Maria Zha-Zha C. Bio
 Philippines (UTC+8) · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · https://product-designer-portfolio-alpha.vercel.app
 
 November 25, 2026
@@ -31,6 +31,6 @@ Alongside that, I have worked since 2008 in administration, research and policy 
 I would love to talk about how I could help coaches, parents and administrators spend less time on schedules and more time on the game. I work remotely, am comfortable collaborating across time zones with overlap with US hours by agreed schedule, and am available for interviews by appointment. Thank you for your consideration.
 
 Sincerely,
-Maria Zha-Zha Cornillez Bio
+Maria Zha-Zha C. Bio
 
 Portfolio: https://product-designer-portfolio-alpha.vercel.app · SportSync case study: https://product-designer-portfolio-alpha.vercel.app/projects/sportsync/ · Role alignment: https://product-designer-portfolio-alpha.vercel.app/role-alignment/

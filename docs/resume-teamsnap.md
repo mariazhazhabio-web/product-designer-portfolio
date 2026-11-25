@@ -1,4 +1,4 @@
-# Maria Zha-Zha Cornillez Bio
+# Maria Zha-Zha C. Bio
 
 **Product Designer, Scheduling** · UI/UX Designer · AI-Assisted Digital Product Developer
 

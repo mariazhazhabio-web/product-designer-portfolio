@@ -2,7 +2,7 @@
 // Fields left empty are hidden automatically (nothing is invented).
 
 export const profile = {
-  name: "Maria Zha-Zha Cornillez Bio",
+  name: "Maria Zha-Zha C. Bio",
   shortName: "Maria Zha-Zha C. Bio",
   title: "Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer",
   positioning:

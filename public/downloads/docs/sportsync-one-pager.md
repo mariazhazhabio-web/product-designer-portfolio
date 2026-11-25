@@ -1,6 +1,6 @@
 # SportSync: one-page project summary
 
-**Smarter Scheduling. Stronger Teams.** · Independent product design & development portfolio project by Maria Zha-Zha Cornillez Bio. Not affiliated with any company. All data fictional.
+**Smarter Scheduling. Stronger Teams.** · Independent product design & development portfolio project by Maria Zha-Zha C. Bio. Not affiliated with any company. All data fictional.
 
 ## Problem
 Youth and community sports run on volunteers. Schedules live in spreadsheets and group chats; one change (weather, venue maintenance, a coach's shift) cascades into double-bookings, missed games and hours of messaging.

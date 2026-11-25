@@ -4,7 +4,7 @@ Use these as the intro on the portfolio, LinkedIn "About", or an application for
 
 ## Short (≈50 words)
 
-I'm Maria Zha-Zha Cornillez Bio, a product designer who designs and builds digital products end to end. My featured project, SportSync, is an AI-assisted sports scheduling concept with a working prototype, research kit, design system and engineering handoff. I bring engineering rigor, research discipline and a teacher's clarity to complex workflows.
+I'm Maria Zha-Zha C. Bio, a product designer who designs and builds digital products end to end. My featured project, SportSync, is an AI-assisted sports scheduling concept with a working prototype, research kit, design system and engineering handoff. I bring engineering rigor, research discipline and a teacher's clarity to complex workflows.
 
 ## Medium (≈120 words)
 

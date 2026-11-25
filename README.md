@@ -2,7 +2,7 @@
 
 **Live site:** https://product-designer-portfolio-alpha.vercel.app · **Prototype:** https://product-designer-portfolio-alpha.vercel.app/demo/
 
-Portfolio of **Maria Zha-Zha Cornillez Bio**, Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer.
+Portfolio of **Maria Zha-Zha C. Bio**, Product Designer | UI/UX Designer | AI-Assisted Digital Product Developer.
 
 Featured project: **SportSync: Smarter Scheduling. Stronger Teams.**, an original, AI-assisted sports scheduling and team management concept with a working prototype, research kit, design system and engineering handoff. Also includes case studies for **WideKonek**, **Frendora** and **ZC Smart Digital**.
 
@@ -63,4 +63,4 @@ See [`docs/deployment-guide.md`](docs/deployment-guide.md): Vercel, Netlify, Clo
 Edit `lib/site.ts` (email, LinkedIn, GitHub, location). Empty fields are hidden. Complete the bracketed fields in `docs/resume.md` and `docs/cover-letter.md` before sending.
 
 ## License
-Code © Maria Zha-Zha Cornillez Bio. Lucide icons: ISC license. Fonts: Inter and Space Grotesk (SIL Open Font License).
+Code © Maria Zha-Zha C. Bio. Lucide icons: ISC license. Fonts: Inter and Space Grotesk (SIL Open Font License).
