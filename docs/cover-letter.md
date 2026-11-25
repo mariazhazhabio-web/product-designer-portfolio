@@ -1,9 +1,9 @@
 # Cover letter: TeamSnap, Product Designer (Scheduling)
 
-> Replace `[bracketed]` fields. Keep it to one page. Everything stated here is accurate to the portfolio; adjust any line you'd like to phrase differently.
+> Ready to send. Everything stated here is accurate to the portfolio and the experience you provided; adjust any line you'd like to phrase differently.
 
 Maria Zha-Zha Cornillez Bio
-[City, Country] · [email] · [phone] · linkedin.com/in/zha-zha-bio-56824a195 · https://product-designer-portfolio-alpha.vercel.app
+Philippines (UTC+8) · mariazhazhabio@gmail.com · +63 997 700 0232 · linkedin.com/in/zha-zha-bio-56824a195 · https://product-designer-portfolio-alpha.vercel.app
 
 November 25, 2026
 
@@ -23,9 +23,9 @@ To show how I would approach it, I designed and built **SportSync**, an independ
 
 I want to be transparent about where I am. My product design work comes from independent and founder projects: WideKonek (a networking, recruitment and freelance marketplace I designed and built on Next.js and Supabase), ZC Smart Digital (automation and web demos) and Frendora (a social platform concept). SportSync's research and usability testing are fully planned but not yet run, and the portfolio says so wherever it matters.
 
-What I bring alongside the design work is an unusual mix: chemical engineering taught me to model systems and constraints; criminology taught me to separate evidence from assumption; a master's in public administration taught me how services succeed or fail real people; and teaching taught me to explain clearly. Together they make me careful, curious and practical.
+Alongside that, I have worked since 2008 in administration, research and policy management for a national government agency in the Philippines, which is where I learned how schedules, rules and real people collide in public services. Earlier, I supported customers by phone, email and chat, and I have taught English online. What I bring alongside the design work is an unusual mix: chemical engineering taught me to model systems and constraints; criminology taught me to separate evidence from assumption; a master's in public administration taught me how services succeed or fail real people; and my education degree and teaching licence taught me to explain clearly. Together they make me careful, curious and practical.
 
-I would love to talk about how I could help coaches, parents and administrators spend less time on schedules and more time on the game. Thank you for your consideration.
+I would love to talk about how I could help coaches, parents and administrators spend less time on schedules and more time on the game. I'm available for remote work with part-time or flexible hours, and for interviews by appointment across time zones. Thank you for your consideration.
 
 Sincerely,
 Maria Zha-Zha Cornillez Bio

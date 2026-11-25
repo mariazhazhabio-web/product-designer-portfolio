@@ -53,12 +53,13 @@ Last updated: 2026-11-25.
 - ✅ Unit tests (8, engine) and Playwright E2E (15, desktop + mobile)
 
 ## Phase 7: Application materials & deployment
-- ✅ ATS resume (bracketed fields for Maria to complete), web resume, resume PDF
-- ✅ TeamSnap cover letter (bracketed fields), portfolio introduction, SportSync one-pager
+- ✅ ATS resume (complete), web resume, resume PDF
+- ✅ TeamSnap cover letter (complete), portfolio introduction, SportSync one-pager
 - ✅ Interview prep guide, case study presentation script, 5-minute walkthrough script
 - ✅ README, deployment guide, GitHub Pages workflow
 - ✅ Case study PDF (`/downloads/sportsync-case-study.pdf`)
-- ⏳ Fill in `lib/site.ts` contact details (email/LinkedIn/GitHub) if they should be public
+- ✅ Contact details, experience, education, licenses and availability added (lib/site.ts, resume, cover letter)
+- ⏳ Profile photo (Maria to provide)
 - ✅ Pushed to GitHub (github.com/mariazhazhabio-web/product-designer-portfolio) and deployed on Vercel: https://product-designer-portfolio-alpha.vercel.app (auto-deploys on push to main)
 
 ## Known limitations

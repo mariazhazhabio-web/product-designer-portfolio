@@ -28,8 +28,14 @@ export default function About() {
             <li className="card p-5"><p className="font-semibold">ZC Smart Digital</p><p className="mt-1 text-muted">Digital solutions and automation services brand.</p></li>
           </ul>
         </Section>
+        <Section title="Professional experience" intro="More than 15 years in the Philippine public sector, plus teaching and customer service.">
+          <ol className="space-y-3">{profile.experience.map((x) => <li key={x.title} className="card flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 p-5"><span><span className="block font-semibold">{x.title}</span><span className="text-sm text-muted">{x.org}</span></span><span className="text-sm tabular-nums text-muted">{x.years}</span></li>)}</ol>
+        </Section>
         <Section title="Education">
-          <ul className="grid gap-3 sm:grid-cols-2">{profile.education.map((e) => <li key={e} className="card p-4 text-sm font-medium">{e}</li>)}</ul>
+          <ul className="grid gap-3 sm:grid-cols-2">{profile.education.map((e) => { const [deg, school] = e.split(" · "); return <li key={e} className="card p-4 text-sm"><span className="block font-medium">{deg}</span><span className="text-muted">{school}</span></li>; })}</ul>
+        </Section>
+        <Section title="Licenses & eligibility">
+          <ul className="grid gap-3 sm:grid-cols-2">{profile.licenses.map((e) => { const [l, by] = e.split(" · "); return <li key={e} className="card p-4 text-sm"><span className="block font-medium">{l}</span><span className="text-muted">{by}</span></li>; })}</ul>
         </Section>
         <Section title="Working principles">
           <ul className="grid gap-3 text-sm md:grid-cols-3">{["Be honest about evidence: label hypotheses, simulations and demo data.", "Design the states, not just the screens: errors, empty, offline, permissions.", "Make automation explainable and reversible.", "Accessibility is a baseline, not a feature.", "Ship working prototypes engineers can read.", "Measure what changes decisions."].map((x) => <li key={x} className="card flex gap-2 p-4"><Sparkles className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden />{x}</li>)}</ul>

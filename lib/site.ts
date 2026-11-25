@@ -8,17 +8,52 @@ export const profile = {
   positioning:
     "A multidisciplinary professional with a background in digital product development, systems management, process improvement, instructional design, research, data analysis, and AI-assisted solutions.",
   education: [
-    "Bachelor of Science in Chemical Engineering",
-    "Bachelor of Science in Criminology",
-    "Master in Management, major in Public Administration",
-    "Professional teaching qualifications",
+    "Master in Management, major in Public Administration · Philippine Christian University, 2023",
+    "Bachelor of Secondary Education, major in Social Studies · College of the Most Holy Trinity Catholic Foundation, 2022",
+    "Bachelor of Science in Criminology · University of La Salette, 2011",
+    "Bachelor of Science in Chemical Engineering · Eastern Visayas State University, 2006",
   ],
-  // Fill these in before publishing. Empty values are not displayed.
-  contactEmail: "",
+  licenses: [
+    "Licensed Professional Teacher · Professional Regulation Commission (PRC)",
+    "Registered Criminologist · Professional Regulation Commission (PRC)",
+    "Registered Chemical Technician · Professional Regulation Commission (PRC)",
+    "Civil Service Professional Eligibility · Civil Service Commission (CSC)",
+  ],
+  experience: [
+    {
+      title: "Administrative, Research, and Policy Management Professional",
+      org: "National Government Agency, Philippines",
+      years: "2008 – Present",
+      points: ["Administrative management, research and policy management work in the Philippine public sector."],
+    },
+    {
+      title: "Online English as a Second Language (ESL) Teacher",
+      org: "Bibo Global Opportunity, Inc.",
+      years: "2016",
+      points: ["Taught English as a second language to learners in online sessions."],
+    },
+    {
+      title: "Customer Service Representative",
+      org: "ICT Marketing Services",
+      years: "2007 – 2008",
+      points: ["Supported customers through phone, email and chat channels."],
+    },
+  ],
+  // Empty values are not displayed.
+  contactEmail: "mariazhazhabio@gmail.com",
+  phone: "+63 997 700 0232",
   linkedin: "https://www.linkedin.com/in/zha-zha-bio-56824a195/",
   github: "https://github.com/mariazhazhabio-web",
-  location: "",
-  availability: "Open to Product Designer roles (remote / international)",
+  location: "Philippines",
+  timezone: "Philippine Standard Time (UTC+8)",
+  availability: "Open to remote Product Designer roles: part-time or flexible hours",
+  availabilityDetails: [
+    ["Start date", "Subject to agreement"],
+    ["Interviews", "By appointment"],
+    ["Work arrangement", "Remote, part-time or flexible working hours"],
+    ["Time zone", "Philippine Standard Time (UTC+8)"],
+    ["International hours", "Subject to an agreed schedule"],
+  ] as [string, string][],
 };
 
 export const primaryNav = [
